@@ -1,0 +1,330 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 837,
+      "max": [
+        1.2278835773468018,
+        1.1920349597930908,
+        0.64401549100875854
+      ],
+      "min": [
+        -1.1653571128845215,
+        -1.1933732032775879,
+        -1.1925504207611084
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 10044,
+      "componentType": 5126,
+      "count": 837,
+      "max": [
+        0.99992954730987549,
+        0.99949014186859131,
+        0.99989163875579834
+      ],
+      "min": [
+        -0.99982643127441406,
+        -0.99929583072662354,
+        -0.99997949600219727
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 837,
+      "max": [
+        0.98279255628585815,
+        0.97842532396316528,
+        0.99676620960235596,
+        1
+      ],
+      "min": [
+        -0.64662587642669678,
+        -0.51736021041870117,
+        -0.99963533878326416,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 837,
+      "max": [
+        0.98778414726257324,
+        0.99303793907165527
+      ],
+      "min": [
+        0.012955944985151291,
+        0.0074937939643859863
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 6696,
+      "componentType": 5126,
+      "count": 837,
+      "max": [
+        0.98778414726257324,
+        0.99303793907165527
+      ],
+      "min": [
+        0.012955944985151291,
+        0.0074937939643859863
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 13392,
+      "componentType": 5126,
+      "count": 837,
+      "max": [
+        0.98778414726257324,
+        0.99303793907165527
+      ],
+      "min": [
+        0.012955944985151291,
+        0.0074937939643859863
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 4800,
+      "max": [
+        836
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Wolfram9 (https://sketchfab.com/wojciechowski.poczta)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/burger-b0a20ac5a08f476bb2fd4115192cbd89",
+      "title": "Burger"
+    },
+    "generator": "Sketchfab-8.31.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 19200,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 20088,
+      "byteOffset": 19200,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 20088,
+      "byteOffset": 39288,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 13392,
+      "byteOffset": 59376,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 72768,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Burger_baseColor.png"
+    },
+    {
+      "uri": "textures/Burger_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Burger_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": false,
+      "name": "Burger",
+      "normalTexture": {
+        "index": 2,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "roughnessFactor": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "BurgerLR_Burger_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4,
+            "TEXCOORD_2": 5
+          },
+          "indices": 6,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "BurgerLowPoly.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        90.159689648848698,
+        -5.5511151231257827e-15,
+        43.257720263824403,
+        0,
+        43.257720263823828,
+        -1.6292067939183141e-05,
+        -90.159689648847504,
+        0,
+        7.0475771773992335e-06,
+        99.999999999998664,
+        -1.4688877891799734e-05,
+        0,
+        3.9987325668334961,
+        16.917524337768555,
+        0,
+        1
+      ],
+      "name": "BurgerLR"
+    },
+    {
+      "mesh": 0,
+      "name": "BurgerLR_Burger_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
+
