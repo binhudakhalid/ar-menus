@@ -9,7 +9,7 @@ In the root directory run
 
 then
 
-    ngrok http 
+    ngrok http 8080
     
 On your mobile device open the url given by ngrok 
 and 
